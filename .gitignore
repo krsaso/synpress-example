@@ -1,0 +1,24 @@
+# Cypress
+node_modules/
+cypress/screenshots/
+cypress/videos/
+
+# OSX
+*.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+
+# IntelliJ - PhpStorm and PyCharm
+.idea
+.idea/
+.idea/*
+*.iml
+*.ipr
+*.iws
+out/
+local.properties

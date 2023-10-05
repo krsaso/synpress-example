@@ -1,0 +1,21 @@
+{
+  "name": "meta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "synpress run --configFile synpress.config.js",
+    "test2": "env-cmd -f .env npx synpress run --configFile synpress.config.js",
+    "start": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0",
+    "start-server-and-test": "^2.0.1"
+  },
+  "dependencies": {
+    "@synthetixio/synpress": "^3.7.2-beta.7",
+    "env-cmd": "^10.1.0"
+  }
+}
